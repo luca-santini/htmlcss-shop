@@ -4,39 +4,49 @@
     box-sizing: border-box;
 }
 
-
-.box {
+div {
     background-color: lightgrey;
     width: 300px;
     height: 400px;
     border: 15px solid black;
     }
 
+#epson {
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#envy {
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#inkjet {
+    position: absolute;
+    top: 145%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
 .button {
     background-color: blue;
     border: none;
     color: white;
-    padding-top: 15px;
-    padding-right: 25px;
-    padding-bottom: 15px;
-    padding-left: 25px;
+    padding: 15px 25px;
+    margin: 4px 16px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-top: 4px;
-    margin-right: 4px;
-    margin-bottom: 4px;
-    margin-left: 16px;
     cursor: pointer;
 }
 
 h2 {
     color: black;
     text-align: center;
-    margin-top: 4px;
-    margin-right: 32px;
-    margin-bottom: 4px;
-    margin-left: 16px;
-    border: 1px solid black;
-    }
+    margin: 4px 16px;
+    border: 2px solid black;
+}
